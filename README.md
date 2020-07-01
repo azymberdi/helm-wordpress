@@ -9,7 +9,7 @@
   * sudo mv linux-amd64/helm /usr/local/bin/helm
   * helm version
   * kubectl create sa -n kube-system tiller
-  * kubectl delete clusterrolebinding tiller-cluster-admin --clusterrole=cluster-admin --serviceaccount=kube-system:tiller
+  * kubectl create clusterrolebinding tiller-cluster-admin --clusterrole=cluster-admin --serviceaccount=kube-system:tiller
   * kubectl create sa -n kube-system  | grep tiller
   * helm init --service-account tiller --upgrade
   
