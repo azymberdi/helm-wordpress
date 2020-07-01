@@ -24,5 +24,3 @@ helm version
   kubectl get service -n adnan-task
   
   Dont forget to change the namespace name in values file..
-  
-  
