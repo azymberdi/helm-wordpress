@@ -1,5 +1,6 @@
 # helm-wordpress
 installed on helm v2
+
 helm version
   sudo mv /usr/local/bin/helm  /usr/local/bin/helm3
   wget https://get.helm.sh/helm-v2.16.9-linux-amd64.tar.gz
