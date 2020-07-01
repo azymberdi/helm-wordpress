@@ -1,4 +1,4 @@
-namespace: adnan-task
+namespace: azym-task
 
 wordpress:
     deployment:
