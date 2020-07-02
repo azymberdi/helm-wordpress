@@ -15,8 +15,7 @@ Commands:
   * helm install wordpress-mysql-helm-chart
   * kubectl get service -n azym-task # this is to get the NodePort, 32237 in my case
   * kubectl get nodes -o wide
-  
-* Dont forget to change the namespace name in values file.
+  * #Get one of the nodes' external IP address along with the NodePort and paste in the Browser.
 
 Adnan's notes (did not want to delete)
   
