@@ -11,7 +11,7 @@ Commands:
   * kubectl create clusterrolebinding tiller-cluster-admin --clusterrole=cluster-admin --serviceaccount=kube-system:tiller
   * helm init --service-account tiller --upgrade
   * cd helm-wordpress/
-  # Inside value-yaml, change the namespace to yours. Default is azym-task.
+   Inside value-yaml, change the namespace to yours. Default is azym-task.
   * helm install wordpress-mysql-helm-chart
   * kubectl get service -n azym-task # this is to get the NodePort, 32237 in my case
   * kubectl get nodes -o wide
