@@ -13,18 +13,9 @@ Commands:
   * cd helm-wordpress/
   * #Inside value-yaml, change the namespace to yours. Default is azym-task.
   * helm install wordpress-mysql-helm-chart
-  * kubectl get service -n azym-task # this is to get the NodePort, 32237 in my case
-  * kubectl get nodes -o wide
-  * #Get one of the nodes' external IP address along with the NodePort and paste in the Browser.
-
-Adnan's notes (did not want to delete)
+  * kubectl get service -n azym-task 
+  * #Get the load balancer IP and paste it on the Internet Browser
+ 
   
-  * create chart named "wp"
-  * go to the directory and execute that command
-  * helm install  --name wp --values values.yaml .
-  * if you want to use a repository with your pre-configured "values.yaml" file; 
-  * helm install  --name wp --values values.yaml stable/wordpress
-  * kubectl get pods -n azym-task
-  * kubectl get service -n azym-task
   
   
