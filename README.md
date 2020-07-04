@@ -12,7 +12,7 @@ Commands:
   * helm init --service-account tiller --upgrade
   * cd helm-wordpress/
   * #Inside value-yaml, change the namespace to yours. Default is azym-task.
-  * helm install wordpress-mysql-helm-chart
+  * helm install wordpress-mysql-helm-chart (or helm install wordpress-mysql-helm-chart ./wordpress-mysql-helm-chart/)
   * kubectl get service -n azym-task 
   * #Get the load balancer IP and paste it on the Internet Browser
  
